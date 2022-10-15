@@ -1,0 +1,28 @@
+<div class="first"></div>
+<div ></div>
+<div class="first"></div>
+<style>
+  body{
+    background:#62306D;
+    display:flex;
+    justify-content:center;
+    align-item:center;
+    margin-top:50px;
+    
+    
+  }
+  div {
+    width: 100px;
+    height: 100px;
+    background: #F7EC7D;
+    border-radius: 50px 50px 0px 0px;
+    
+    }
+
+.first{
+   transform:rotate(180deg);
+   margin-top:100px;
+   
+}
+</style>
+
