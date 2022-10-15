@@ -1,0 +1,50 @@
+<div class="base">
+  <div class="one"></div>
+  <div class="two"></div>
+</div>
+<style>
+  body{
+     background:#6592CF;
+     display:flex;
+     justify-content:center;
+      align-items:center;
+  }
+  .base {
+    width: 140px;
+    height: 100px;
+    background: #060F55;
+    border-radius:0px 0px 100px 100px; 
+    margin-top:100px
+  }
+
+  .one{
+         width: 20px;
+         height: 100px;
+         background: #060F55;
+         position:absolute;
+         bottom:0px;
+         left:48%;
+        
+  }
+
+  .two{
+         width: 20px;
+         height: 110px;
+         background: #060F55;
+         position:absolute;
+         border-radius:20px;
+         top:50px;
+        box-shadow:
+          20px 0 0 0 #6592CF,
+          40px 0 0 0 #060F55,
+          60px 0 0 0 #6592CF,
+          80px 0 0 0 #060F55,
+          100px 0 0 0 #6592CF,
+          120px 0 0 0 #060F55;
+    
+          
+         
+  }
+</style>
+
+
